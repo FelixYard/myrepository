@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .fejlec {
+            height: 15vh;
+            width: calc(100vw);
+            background: linear-gradient(45deg, red, blue);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: white;
+            flex: 1;
+        }
+
+        .cim {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+
+        .elerhetoseg {
+            font-size: 1.5rem;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .menu a {
+            color: white;
+            text-decoration: none;
+            padding: 3vw;
+            cursor: pointer;
+            height: 1vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .fejlec .menu a:hover {
+            opacity: 0.9;
+            background: black;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 35%;
+            font-size: 2rem;
+        }
+
+        .tartalom {
+            height: 85vh;
+            overflow:auto;
+            background: linear-gradient(rgb(255, 255, 195), rgb(255, 220, 110));
+            display: flex;
+            justify-content: center;
+        }
+
+        .szovegesTartalom {
+            width: 60%;
+        }
+
+        h2 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 2rem;
+        }
+
+        button {
+            border: none;
+            background-color: red;
+            border-radius: calc((2rem + 10vh) /2);
+            padding: 3vh;
+            font-size: 1.5rem;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:active {
+            background-color: rgb(122, 0, 0);
+        }
+
+        hr {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="fejlec">
+        <div class="cim">Weblapkészítés</div>
+        <div class="elerhetoseg">Ímél: sepseib@szag.hu</div>
+        <div class="menu">
+            <a href="#1">
+                <li>
+                    Alap koncepció
+                </li>
+            </a>
+
+            <a href="#2">
+                <li>
+                    Rólunk
+                </li>
+            </a>
+
+        </div>
+    </div>
+    <div class="tartalom">
+        
+        
+        <div class="szovegesTartalom">
+            <a name="0" id="0"></a>
+            <br>
+            <br>
+            <a name="1" id="1"></a>
+            <h2>Segítünk Önnek</h2>
+            <br>
+            <p>
+                Szeretne egy modern, felhasználóbarát weboldalt, amely segíti az ügyfélszerzést és növeli az online jelenlétét? Vállalkozása weboldala lehet az egyik legfontosabb eszköze az üzleti siker eléréséhez. Mi segítünk Önnek abban, hogy olyan weboldalt hozzunk létre, amely megfelel az Ön vállalkozása igényeinek, és hatékonyan segít a céljai elérésében.
+            </p>
+            <br>
+            <a href="#0"><button>Vissza a lap tetejére</button></a>
+            <br>
+            <p></p>
+            <br>
+            <hr>
+
+
+            <br>
+            <br>
+            <a name="2" id="2"></a>
+            <h2>Rólunk</h2>
+            <br>
+            <p>
+                Egy tagból álló csapatunk célja, hogy ügyfeleinknek olyan szolgáltatásokat és weboldalakat nyújtsuk illetve készítsünk, amelyekkel digitálisan kitörhetnek és kitűnhetnek más holnapok közül. Az évek során sokféle projektet valósítottunk meg, és büszkék vagyunk arra, hogy elégedett ügyfeleink száma folyamatosan növekszik. Célunk, hogy minden egyes projektet személyre szabottan kezeljük, és sablon nélkül, az Ön egyedi igényeinek megfelelően alakítsuk ki a weboldalát.
+            </p>
+            <br>
+            <a href="#0"><button>Vissza a lap tetejére</button></a>
+            <br>
+            <p></p>
+            <br>
+            <hr>
+            
+            <br>
+            <br>
+        </div>
+    </div>
+</body>
+</html>
